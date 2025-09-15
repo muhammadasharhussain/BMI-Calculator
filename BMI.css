@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Versa';
+    src: url(Versa-Versa.otf) format('opentype'),
+}
+@font-face {
+    font-family: 'VG';
+    src: url(VG.otf) format('opentype'),
+}
+body{
+	background-color:#9c71e0 ;
+}
+h1{
+	text-align: center;
+	font-family: 'Versa';
+	font-size: 4.5em;
+	font-weight: normal;
+	position: relative;
+}
+.space{
+/*	border:7px solid orange;*/
+	width: 100%;
+	height: 110px;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	text-align: left;
+	font-size:2em ;
+	font-family: 'VG';
+}
+li .enter-weight{
+	padding-left: 354px;
+}
+li .enter-height{
+	padding-left: 210px;	
+}
+.w{
+	width: 310px;
+	height: 70px;
+	border: 4px solid black;
+	background-color: transparent;	
+	font-size:2em ;
+	position: relative;
+	left: 26.333%;
+	max-width: 100%;
+	text-align: center;
+}
+.h{
+	width: 310px;
+	height: 70px;
+	border: 4px solid black;
+	background-color: transparent;
+	font-size:2em;
+	position: relative;
+	left: 52.666%;
+	top: -81px;
+	max-width: 100%;
+	text-align: center;
+}
+
+.kg{
+
+	text-align: center;
+	font-family: "VG";
+	font-size: 1em;
+	background-color: #7E47D7;
+	height: 72px;
+	width: 40px;
+	position: relative;
+	left: 348px; 
+	top:-5px;
+}
+.cm{
+	text-align: center;
+	font-family: "VG";
+	font-size: 1em;
+	background-color: #7E47D7;
+	height: 72px;
+	width: 40px;
+	position: relative;
+	left: 744px; 
+	top:-86px;
+}
+button{
+	width: 119px;
+	height: 67px;
+	border-radius: 8px;
+	background-color: #7E47D7;
+	font-family: "VG";
+	font-size: 1.5em;
+	position: relative;
+	left: 325px;
+	top: 9px;
+	border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6);
+
+}
+button:hover{
+	background-color:#7236D3 ;
+}
+button:active{
+	background-color: #5F28B8;
+}
+.result h1{
+	font-family: "VG";
+	font-size: 3.5em;
+	position: relative;
+	font-weight: normal;
+/*	background-color: yellow;*/
+}
+#res{
+	font-family: sans-serif;
+	font-weight: bold;
+}
